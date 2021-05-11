@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "e-pathMap"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of e-pathMap."
 
   spec.description  = <<-DESC
@@ -60,15 +60,15 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.source_files = 'Epathmap/**/*'
+  s.source_files = 'e-pathMap/**/*'
 
-  s.resources = "Epathmap/InfoPlist.bundle","Epathmap/Epathmap.bundle"
+  s.resources = "e-pathMap/InfoPlist.bundle","e-pathMap/Epathmap.bundle"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
   
-  s.ios.vendored_frameworks = "EpathmapSDK/Frameworks/EpathmapSDK.framework"
+  s.ios.vendored_frameworks = "EpathmapSDK/EpathmapSDK.framework"
 
   s.frameworks = "UIKit", "Foundation", "QuartzCore", "SystemConfiguration", "CoreGraphics", "CoreLocation", "CoreTelephony", "AudioToolbox", "AVFoundation", "AddressBook"
   s.weak_framework = "Contacts"
