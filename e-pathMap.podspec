@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "e-pathMap"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of e-pathMap."
 
   spec.description  = <<-DESC
@@ -60,7 +60,7 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  s.source_files = 'epathMap/**/*'
+  s.source_files = "epathMap/**/*"
 
   s.resources = "epathMap/InfoPlist.bundle","epathMap/Epathmap.bundle","epathMap/EpathMap.xcassets","epathMap/EpathmapSDKImage/**/*.png"
 
